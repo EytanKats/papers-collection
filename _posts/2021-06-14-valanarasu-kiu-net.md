@@ -3,11 +3,11 @@ toc: false
 layout: post
 description: Paper summary
 categories: [segmentation, medical, ultrasound, histopathology, retinal images, miccai]
-title: Kiu-net: Towards accurate segmentation of biomedical images using over-complete representations
+title: Kiu-net Towards Accurate Segmentation of Biomedical Images Using Over-complete Representations
 ---
 
 
-# Kiu-net: Towards accurate segmentation of biomedical images using over-complete representations
+# Kiu-net: Towards Accurate Segmentation of Biomedical Images Using Over-complete Representations
 
 Valanarasu, J.M.J., Sindagi, V.A., Hacihaliloglu, I. and Patel, V.M.
 In International Conference on Medical Image Computing and Computer-Assisted Intervention 2020
