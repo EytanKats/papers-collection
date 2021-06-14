@@ -39,7 +39,7 @@ This block extracts complementary features from both network branches and forwar
 Finally, the features from both branches are added and forwarded through 1x1 convolution layer
 to produce the segmentation mask.
 
-![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/architecture.png)
+![]({{ site.baseurl }}/images/architecture.png)
 
 
 ## Results
