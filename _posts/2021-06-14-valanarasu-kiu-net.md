@@ -26,8 +26,7 @@ However, it is important to note that tiny structures require smaller receptive 
 In over-complete architectures the data is projected onto a higher dimension in the intermediate layers.
 The filters in this type of architecture learn finer low-level features due to the decreasing size
 of receptive field as we go deeper in the encoder network.
-
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/receptive_field.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/receptive_field.png)
 
 
 ## Technical details
@@ -40,47 +39,47 @@ This block extracts complementary features from both network branches and forwar
 Finally, the features from both branches are added and forwarded through 1x1 convolution layer
 to produce the segmentation mask.
 
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/architecture.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/architecture.png)
 
 
 ## Results
 
 ### Filter responses
 
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/filter_responses.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/filter_responses.png)
 
 ### 2D Ultrasound brain scans of preterm neonates
 The dataset was collected during the study.
 Ventricles and septum pellecudi were manually annotated by an expert ultrasonographer.
 
 Qualitative comparison:  
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/us_dataset_qualitative_results.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/us_dataset_qualitative_results.png)
 
 Quantitative comparison:  
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/us_dataset_quantitative_results.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/us_dataset_quantitative_results.png)
 
 ### GLAnd Segmentation (GLAS) dataset
 GLAnd Segmentation (GLAS) dataset contains microscopic images of Hematoxylin and Eosin (H&E) stained slides
 and the corresponding ground truth annotations by expert pathologists.
 
 Qualitative comparison:  
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/glas_dataset_qualitative_results.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/glas_dataset_qualitative_results.png)
 
 Quantitative comparison:  
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/glas_dataset_quantitative_results.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/glas_dataset_quantitative_results.png)
 
 ### Retinal Images vessel Tree Extraction (RITE) dataset:
 RITE dataset contains segmentation of arteries and veins on retinal fundus images.
 
 Qualitative comparison:  
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/rite_dataset_qualitative_results.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/rite_dataset_qualitative_results.png)
 
 Quantitative comparison:  
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/rite_dataset_quantitative_results.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/rite_dataset_quantitative_results.png)
 
 ### Ablation study
 
-![]({{ site.baseurl }}/_posts/2021-06-14-valanarasu-kiu-net/ablation_study.png)
+![]({{ site.baseurl }}/images/2021-06-14-valanarasu-kiu-net/ablation_study.png)
 
 UC - Under-Complete architecture  
 OC - Over-Complete architecture  
