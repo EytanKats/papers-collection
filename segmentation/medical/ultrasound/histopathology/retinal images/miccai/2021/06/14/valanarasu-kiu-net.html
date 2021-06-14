@@ -125,9 +125,8 @@ on the higher-level features.<br />
 However, it is important to note that tiny structures require smaller receptive fields.<br />
 In over-complete architectures the data is projected onto a higher dimension in the intermediate layers.
 The filters in this type of architecture learn finer low-level features due to the decreasing size
-of receptive field as we go deeper in the encoder network.</p>
-
-<p><img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/receptive_field.png" alt="" /></p>
+of receptive field as we go deeper in the encoder network.
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/receptive_field.png" alt="" /></p>
 
 <h2 id="technical-details">Technical details</h2>
 
@@ -139,46 +138,46 @@ This block extracts complementary features from both network branches and forwar
 Finally, the features from both branches are added and forwarded through 1x1 convolution layer
 to produce the segmentation mask.</p>
 
-<p><img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/architecture.png" alt="" /></p>
+<p><img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/architecture.png" alt="" /></p>
 
 <h2 id="results">Results</h2>
 
 <h3 id="filter-responses">Filter responses</h3>
 
-<p><img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/filter_responses.png" alt="" /></p>
+<p><img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/filter_responses.png" alt="" /></p>
 
 <h3 id="2d-ultrasound-brain-scans-of-preterm-neonates">2D Ultrasound brain scans of preterm neonates</h3>
 <p>The dataset was collected during the study.
 Ventricles and septum pellecudi were manually annotated by an expert ultrasonographer.</p>
 
 <p>Qualitative comparison:<br />
-<img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/us_dataset_qualitative_results.png" alt="" /></p>
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/us_dataset_qualitative_results.png" alt="" /></p>
 
 <p>Quantitative comparison:<br />
-<img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/us_dataset_quantitative_results.png" alt="" /></p>
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/us_dataset_quantitative_results.png" alt="" /></p>
 
 <h3 id="gland-segmentation-glas-dataset">GLAnd Segmentation (GLAS) dataset</h3>
 <p>GLAnd Segmentation (GLAS) dataset contains microscopic images of Hematoxylin and Eosin (H&amp;E) stained slides
 and the corresponding ground truth annotations by expert pathologists.</p>
 
 <p>Qualitative comparison:<br />
-<img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/glas_dataset_qualitative_results.png" alt="" /></p>
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/glas_dataset_qualitative_results.png" alt="" /></p>
 
 <p>Quantitative comparison:<br />
-<img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/glas_dataset_quantitative_results.png" alt="" /></p>
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/glas_dataset_quantitative_results.png" alt="" /></p>
 
 <h3 id="retinal-images-vessel-tree-extraction-rite-dataset">Retinal Images vessel Tree Extraction (RITE) dataset:</h3>
 <p>RITE dataset contains segmentation of arteries and veins on retinal fundus images.</p>
 
 <p>Qualitative comparison:<br />
-<img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/rite_dataset_qualitative_results.png" alt="" /></p>
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/rite_dataset_qualitative_results.png" alt="" /></p>
 
 <p>Quantitative comparison:<br />
-<img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/rite_dataset_quantitative_results.png" alt="" /></p>
+<img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/rite_dataset_quantitative_results.png" alt="" /></p>
 
 <h3 id="ablation-study">Ablation study</h3>
 
-<p><img src="/papers-collection/_posts/2021-06-14-valanarasu-kiu-net/ablation_study.png" alt="" /></p>
+<p><img src="/papers-collection/images/2021-06-14-valanarasu-kiu-net/ablation_study.png" alt="" /></p>
 
 <p>UC - Under-Complete architecture<br />
 OC - Over-Complete architecture<br />
