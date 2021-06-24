@@ -9,7 +9,7 @@ title: KiU-Net Towards Accurate Segmentation of Biomedical Images Using Over-com
 Valanarasu, J.M.J., Sindagi, V.A., Hacihaliloglu, I. and Patel, V.M.  
 In International Conference on Medical Image Computing and Computer-Assisted Intervention 2020
 
-[ArXiv](https://arxiv.org/abs/2006.04878) [GitHub](https://github.com/jeya-maria-jose/KiU-Net-pytorch)
+[arXiv](https://arxiv.org/abs/2006.04878) [GitHub](https://github.com/jeya-maria-jose/KiU-Net-pytorch)
 
 
 ## Main contribution
