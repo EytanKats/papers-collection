@@ -6,7 +6,7 @@ categories: [main contribution, detection, classification, medical, ultrasound, 
 title: Computer-Aided Tumor Diagnosis in Automated Breast Ultrasound using 3D Detection Network
 ---
 
-Yu, J., Chen, C., Yang, X., Wang, Y., Yan, D., Zhang, J. and Ni, D. 
+Yu, J., Chen, C., Yang, X., Wang, Y., Yan, D., Zhang, J. and Ni, D.  
 In International Conference on Medical Image Computing and Computer-Assisted Intervention 2020
 
 [arXiv](https://arxiv.org/abs/2007.16133)
