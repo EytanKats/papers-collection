@@ -1,15 +1,16 @@
 ---
 toc: false
 layout: post
-description: Main contribution
+description: Essence
 categories: [essence, classification, medical, ultrasound, scientific reports]
 title: Evaluation of Deep Convolutional Neural Networks for Automatic Classification of Common Maternal Fetal Ultrasound Planes
 ---
 
-Burgos-Artizzu, X.P., Coronado-Gutiérrez, D., Valenzuela-Alcaraz, B., Bonet-Carne, E., Eixarch, E., Crispi, F. and Gratacós, E.
+Burgos-Artizzu, X.P., Coronado-Gutiérrez, D., Valenzuela-Alcaraz, B., Bonet-Carne, E., Eixarch, E., Crispi, F. and Gratacós, E.  
 Scientific Reports 2020
 
-[Scientific Reports](https://www.nature.com/articles/s41598-020-67076-5) [Zenodo](https://zenodo.org/record/3904280#.YN9mshMzZhE)
+Paper - [Scientific Reports](https://www.nature.com/articles/s41598-020-67076-5)  
+Data - [Zenodo](https://zenodo.org/record/3904280#.YN9mshMzZhE)
 
 
 ## Contribution
@@ -18,7 +19,7 @@ Scientific Reports 2020
 - The direct comparison between deep learning techniques and the classification performed by research technicians
   who perform the task daily in our hospitals.
   
-# Results
+## Results
 - Results on general classification show that computational model was able to classify US images almost on par
   with research technicians fully trained to perform the task.
 - Results on brain fne-grained categorization show that computational models are still far from human technicians
