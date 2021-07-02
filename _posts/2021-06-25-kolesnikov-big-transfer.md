@@ -1,18 +1,19 @@
 ---
 toc: false
 layout: post
-description: Main contribution
-categories: [main contribution, representation learning, fine tuning, preprint]
+description: Essence
+categories: [essence, representation learning, fine tuning, preprint]
 title: Big Transfer (BiT) General Visual Representation Learning
 ---
 
 Kolesnikov, A., Beyer, L., Zhai, X., Puigcerver, J., Yung, J., Gelly, S. and Houlsby, N.  
 arXiv 2019
 
-[arXiv](https://arxiv.org/abs/1912.11370) [GitHub](https://github.com/google-research/big_transfer)
+Paper - [arXiv](https://arxiv.org/abs/1912.11370)  
+Code - [GitHub](https://github.com/google-research/big_transfer)
 
 
-## Main contribution
+## Contribution
 - Study of the importance of dataset size and architecture size (during pre-training) in the context of transfer learning,
 including transfer to tasks with very few datapoints.
 - Procedure for training from large datasets.
