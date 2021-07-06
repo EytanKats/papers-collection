@@ -2,12 +2,12 @@
 toc: false
 layout: post
 description: Essence
-categories: [essence, representation learning, fine tuning, preprint]
+categories: [essence, representation learning, fine tuning, classification, eccv]
 title: Big Transfer (BiT) General Visual Representation Learning
 ---
 
 Kolesnikov, A., Beyer, L., Zhai, X., Puigcerver, J., Yung, J., Gelly, S. and Houlsby, N.  
-arXiv 2019
+In Computer Vision–ECCV 2020
 
 Paper - [arXiv](https://arxiv.org/abs/1912.11370)  
 Code - [GitHub](https://github.com/google-research/big_transfer)
